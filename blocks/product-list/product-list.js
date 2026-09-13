@@ -17,7 +17,7 @@ export default async function decorate(block) {
   products.forEach((p) => {
     const card = document.createElement('a');
     card.className = 'product-card';
-    card.href = `/product/${p.sku}`; // where the PDP will live later
+    card.href = `/product/detail?sku=${p.sku}`; // where the PDP will live later
 
     // instock comes in as the STRING "true"/"false", not a real boolean —
     // sheets always give you strings, so we compare against the string.
