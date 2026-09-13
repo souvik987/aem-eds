@@ -16,7 +16,7 @@
 }
 
 .product-card:hover {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 8%);
 }
 
 .product-image-wrap {
